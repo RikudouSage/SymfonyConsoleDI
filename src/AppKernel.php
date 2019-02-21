@@ -53,6 +53,6 @@ final class AppKernel extends Kernel
      */
     private function getAppKey(): string
     {
-        throw new \BadMethodCallException('The method is not implemented');
+        return md5(__FILE__);
     }
 }
