@@ -1,0 +1,16 @@
+{
+    "name": "rikudou/symfony-cli-di",
+    "license": "WTFPL",
+    "require": {
+        "symfony/console": "^4.2",
+        "symfony/http-kernel": "^4.2",
+        "symfony/config": "^4.2",
+        "symfony/dependency-injection": "^4.2",
+        "symfony/yaml": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
