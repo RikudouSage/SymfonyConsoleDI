@@ -1,5 +1,5 @@
 {
-    "name": "rikudou/symfony-cli-di",
+    "name": "rikudou/symfony-console-di",
     "license": "WTFPL",
     "require": {
         "symfony/console": "^4.2",
