@@ -28,6 +28,11 @@ class CommandLocatorCompilerPass implements CompilerPassInterface
                 }
             }
         }
+
+        $application->setArguments([
+            $container->getParameter('app_name'),
+            $container->getParameter('app_version')
+        ]);
     }
 
     private function setDefaultCommand(Definition $definition, Definition $application) {
